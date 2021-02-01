@@ -872,4 +872,22 @@ public class AppIndependentMethods extends DriverScript{
 			}
 		}
 	}
+	
+	
+	/*******************************************************
+	 * Method Name	`	: get system user name()
+	 * Purpose			: it is to get current system username
+	 * Author			:
+	 * Reviewer			:
+	 * Date creation	:
+	 * Date Modified	:
+	 * Modified By		:
+	 * Parameters		: NA
+	 * Return Type		: string
+	 ********************************************************/
+	
+	public String getSystemUserName()
+	{
+		return System.getProperty("user.name");
+	}
 }
